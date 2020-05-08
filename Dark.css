@@ -1,0 +1,347 @@
+
+
+header{
+	width: 100%;
+	height:110px;
+	background-color: #66300f ; 
+	z-index: 2;
+	position: relative;
+   
+
+}
+header .container{
+	position: relative;
+}
+
+
+header #Logotipo{
+position: absolute;
+left: 150px;
+top:0px;
+
+}
+
+
+header #cavaleiro{
+position: absolute;
+left:388px;
+top: -17px;
+height: 139px ;
+
+}
+
+
+header #corpocavaleiro{
+position: absolute;
+left: 378px;
+top: -78px;
+height: 260px ;
+
+}
+
+
+header #dancarina{
+position: absolute;
+left:600px;
+top:-7px;
+height: 139px;
+
+}
+
+header #corpodancarina{
+position: absolute;
+left:696px;
+top:-1px;
+height: 103px;
+}
+
+
+
+header #firelink{
+position: absolute;
+left: 800px ;
+top: -14px ;
+height: 139px ;
+
+}
+
+header #corpofirelink{
+position: absolute;
+left: 870px ;
+top: -2px ;
+height: 122px ;
+
+}
+
+
+
+
+header #legiao{
+position: absolute;
+left: 1012px ;
+top: -1px ;
+height: 118px ;
+
+}
+
+header #corpolegiao{
+position: absolute;
+left: 1067px ;
+top: -1px ;
+height: 118px ;
+
+}
+
+
+
+
+header #solair{
+position: absolute;
+left: 1212px ;
+top: -10px ;
+height: 139px ;
+}
+
+header #corposolair{
+position: absolute;
+left: 1290px ;
+top: -7px ;
+height: 120px ;
+}
+
+
+#menu {
+	margin: 17px 80px;
+
+}
+
+#menu li {
+display: inline-block; 
+margin: 17px;
+ 
+
+}
+
+#menu li.search {
+width: 182px ;
+
+
+}
+
+#menu li.search input{
+    border: none ;
+    height: 30px;
+    line-height: 30px ;
+}
+
+
+#menu li a {
+	color: #FFF;
+	font-size: 16px;
+	padding: 10px 45px;
+	font-weight: bold;
+	margin: 17px;
+	margin-top: 5px ;
+}
+
+#banner{
+  width: 100% ;  
+  height: 1160px ;
+  position:relative;
+  background: url("../imagens/banner.jpg") no-repeat;
+  background-size: cover;
+  top: -130px;
+
+}
+#banner h1 {
+	color: #fff;
+	top: 300px;
+	position: relative;
+	font-size: 92px;
+	text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
+	margin-left: 50px;
+}
+#banner h1 small {
+	font-size: 32px;
+	display: block;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#news {
+	position: relative;
+    top: -110px;
+}
+#news h2 {
+	color: #69310f;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#news hr {
+	border:#0000 solid 2px;
+	width: 200px;
+	margin: 0 auto;
+}
+#news .thumbnails {
+	margin-top: 20px;
+}
+
+
+#news .thumbnails h3 {
+	color: #69310f;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+#news .thumbnails time {
+	color:#000;
+	font-size: 18px;
+
+}
+
+#estatisticas {
+	background-color: #69310f;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}
+#estatisticas p {
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 64px;
+	margin-top: 36px;
+}
+#estatisticas p small {
+	color: #4f4f4f;
+	font-size: 24px;
+	display: block;
+}
+
+#call-to-action {
+	text-align: center;
+	margin-top: 105px;
+}
+#call-to-action h2 {
+	color: #69310f;
+	font-size: 48px;
+	text-align: center;
+}
+#call-to-action hr {
+	border:#000 solid 8px;
+	width: 200px;
+	margin: 0 auto;
+}
+#call-to-action p {
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: #69310f;
+}
+#call-to-action .btn {
+	min-width: 164px;
+    height: 44px;
+    line-height: 34px;
+    border-radius: 0;
+}
+#call-to-action .btn-roxo {
+    color: #fff;
+    background-color: #69310f;
+    border-color: #69310f;
+}
+#call-to-action .btn-amarelo {
+    color: #fff;
+    background-color: #69310f;
+    border-color: #69310f;
+}
+#call-to-action .row-max-400 {
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+footer {
+	margin-top: 110px;
+}
+footer .row {
+	width: 101%;
+}
+footer .row p {
+	line-height: 60px;
+	margin-bottom: 0;
+	margin: -16px -316px;
+}
+footer .row-cinza-claro {
+	height: 200px;
+	background-color: #000;
+}
+footer .row-cinza-escuro {
+	height: 60px;
+	background-color: #232222;
+	border-top: #232222 1px solid;
+}
+footer .pull-left {
+	
+	font-size: 14px;
+	color: #FFF;
+}
+footer .text-roxo {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+footer .logotipo {
+	margin-top: 28px;
+	position: absolute;
+    left: -258px;
+}
+footer .col-popular-post,
+footer .col-links,
+footer .col-get-in-touch {
+	margin-top: 40px;
+}
+footer .row-cols h4 {
+	font-size: 16px;
+	color: #FFF;
+	padding-bottom: 17px;
+	border-bottom: #242D37 1px solid;
+}
+footer .row-cols h5 {
+    color: #FFF;
+    font-size: 18px;
+	margin-bottom: 0;
+}
+footer .row-cols time {
+	color: #FDE092;
+	font-size: 14px;
+}
+footer .col-links a {
+	color: #FFF;
+	font-size: 14px;
+}
+footer .col-links .fa {
+	margin: 0 6px;
+}
+footer .col-get-in-touch address {
+	color:#666;
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+footer .col-get-in-touch address span {
+	display: inline-block;
+}
+footer .col-get-in-touch address i {
+	position: relative;
+	top: -14px;
+}
+footer .col-get-in-touch i {
+	color: #9B9B9B;
+	font-size: 20px;
+	margin: 0 6px;
+
+}
+footer .col-get-in-touch a {
+	color: #666;
+}
+footer .col-get-in-touch p {
+	line-height: 20px;
+}
